@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-imageSlider-viktor-library/Android-imageSlider-viktor-library.iml" filepath="$PROJECT_DIR$/Android-imageSlider-viktor-library/Android-imageSlider-viktor-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolleyNewsClientApplication.iml" filepath="$PROJECT_DIR$/VolleyNewsClientApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-slidingmenu-library/android-slidingmenu-library.iml" filepath="$PROJECT_DIR$/android-slidingmenu-library/android-slidingmenu-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-volley-libaray/android-volley-libaray.iml" filepath="$PROJECT_DIR$/android-volley-libaray/android-volley-libaray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xlistview_warmtel_library/xlistview_warmtel_library.iml" filepath="$PROJECT_DIR$/xlistview_warmtel_library/xlistview_warmtel_library.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">每日快讯—张雪松</string>
+    <string name="news_information">新闻详情</string>
+    <string name="news_source">来源：</string>
+    <string name="news_tab_image">图片</string>
+    <string name="news_tab_video">视屏</string>
+    <string name="news_tab_weather">天气</string>
+    <string name="news_tab_map">地图</string>
+    <string name="news_tab_more">更多</string>
+    <string name="news_txt_headline">头条</string>
+    <string name="news_txt_recreation">娱乐</string>
+    <string name="news_txt_physical">体育</string>
+    <string name="news_txt_economics">财经</string>
+    <string name="news_txt_science">科技</string>
+    <string name="news_collection_pictures">精选</string>
+    <string name="news_funny_pictures">趣图</string>
+    <string name="news_pretty_pictures">美图</string>
+    <string name="news_story_pictures">故事</string>
+    <string name="news_hot_video">热点</string>
+    <string name="news_recreation_video">娱乐</string>
+    <string name="news_funny_video">搞笑</string>
+    <string name="news_quality_video">精品</string>
+    <string name="news_text_title">新闻快讯</string>
+    <string name="news_image_title">图片新闻</string>
+    <string name="news_video_title">视屏新闻</string>
+    <string name="news_video_information">视屏详情</string>
+    <string name="news_pics_information">图片详情</string>
+    <string name="image_news_details_title">/</string>
+
+
+</resources>

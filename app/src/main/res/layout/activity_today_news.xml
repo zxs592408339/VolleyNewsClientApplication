@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/news_text_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/title_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/text_news_title"
+            android:layout_width="@dimen/news_image"
+            android:layout_height="match_parent"
+            android:padding="@dimen/news_menu_padding"
+            android:src="@drawable/default_round_head_new" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_toRightOf="@id/text_news_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/news_text_title"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/news_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/news_txt_tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_text_action_bar">
+
+        <ImageView
+            android:id="@+id/add_news_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/channel_glide_press" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/add_news_txt">
+
+            <TextView
+                android:id="@+id/text_news_headline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_txt_headline"
+                android:textSize="@dimen/news_information_title" />
+
+            <TextView
+                android:id="@+id/text_news_recreation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_txt_recreation"
+                android:textSize="@dimen/news_information_title" />
+
+            <TextView
+                android:id="@+id/text_news_physical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_txt_physical"
+                android:textSize="@dimen/news_information_title" />
+
+            <TextView
+                android:id="@+id/text_news_economics"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_txt_economics"
+                android:textSize="@dimen/news_information_title" />
+
+            <TextView
+                android:id="@+id/text_news_science"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_txt_science"
+                android:textSize="@dimen/news_information_title" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/text_news_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/news_txt_tab_title" />
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_layout">
+
+    <TextView
+        android:id="@+id/image_news_details_txt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/image_news_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_layout"
+        android:layout_above="@id/image_news_details_txt">
+
+        <TextView
+            android:id="@+id/image_news_details_txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/news_information"/>
+
+        <TextView
+            android:id="@+id/image_news_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/news_information"
+            android:textColor="@android:color/white"
+            android:layout_toLeftOf="@id/image_news_details_txt_total"
+            android:text="@string/image_news_details_title" />
+
+        <TextView
+            android:id="@+id/image_news_details_txt_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/news_information"
+            android:layout_toLeftOf="@id/image_news_details_title" />
+
+        <TextView
+            android:id="@+id/image_news_details_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/news_information"
+            android:layout_toLeftOf="@id/image_news_details_txt_on" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_news_details_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/image_news_details_layout" />
+</RelativeLayout>

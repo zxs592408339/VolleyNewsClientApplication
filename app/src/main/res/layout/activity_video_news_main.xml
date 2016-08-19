@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/news_video_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#CC3030"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/news_video_title"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/news_title" />
+
+        <ImageView
+            android:id="@+id/video_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/news_back"
+            android:src="@drawable/layout_news_back_black" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/news_video_tab_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_video_action_bar">
+
+        <TextView
+            android:id="@+id/news_hot_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/news_hot_video"
+            android:textSize="@dimen/news_information_title" />
+
+        <TextView
+            android:id="@+id/news_recreation_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/news_recreation_video"
+            android:textSize="@dimen/news_information_title" />
+
+        <TextView
+            android:id="@+id/news_funny_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/news_funny_video"
+            android:textSize="@dimen/news_information_title" />
+
+        <TextView
+            android:id="@+id/news_quality_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/news_quality_video"
+            android:textSize="@dimen/news_information_title" />
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/video_news_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/news_video_tab_title_layout" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sliding_pc_main_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_tab_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/sliding_navigation_tab_pics"
+        android:gravity="center"
+        android:padding="@dimen/activity_vertical"
+        android:text="@string/news_tab_image"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_menu" />
+
+    <TextView
+        android:id="@+id/menu_tab_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical"
+        android:drawableLeft="@mipmap/sliding_navigation_tab_video"
+        android:gravity="center"
+        android:text="@string/news_tab_video"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_menu" />
+
+    <TextView
+        android:id="@+id/menu_tab_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical"
+        android:drawableLeft="@mipmap/sliding_navigation_tab_weather"
+        android:gravity="center"
+        android:text="@string/news_tab_weather"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_menu" />
+
+    <TextView
+        android:id="@+id/menu_tab_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical"
+        android:drawableLeft="@mipmap/sliding_navigation_tab_map_1"
+        android:gravity="center"
+        android:text="@string/news_tab_map"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_menu" />
+
+    <TextView
+        android:id="@+id/menu_tab_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical"
+        android:drawableLeft="@mipmap/sliding_navigation_tab_more"
+        android:gravity="center"
+        android:text="@string/news_tab_more"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_menu" />
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':Android-imageSlider-viktor-library', ':android-slidingmenu-library', ':android-volley-libaray', ':xlistview_warmtel_library'
